@@ -5,21 +5,24 @@ import { Shield, ArrowUp, ExternalLink } from "lucide-react";
 
 const footerLinks = [
   {
-    heading: "Capabilities",
+    heading: "Services",
     links: [
-      { label: "Managed Detection", href: "#capabilities" },
-      { label: "Pen Testing", href: "#capabilities" },
-      { label: "Security Audits", href: "#capabilities" },
-      { label: "EDR Fleet", href: "#capabilities" },
+      { label: "Managed Detection & Response", href: "/services/managed-detection-response" },
+      { label: "Penetration Testing", href: "/services/penetration-testing" },
+      { label: "Cloud Security", href: "/services/cloud-security" },
+      { label: "Endpoint Detection & Response", href: "/services/endpoint-detection-response" },
+      { label: "Threat Intelligence", href: "/services/threat-intelligence" },
+      { label: "SOAR & Automation", href: "/services/soar-automation" },
+      { label: "Compliance & GRC", href: "/services/compliance-assessment" },
     ],
   },
   {
-    heading: "Pricing",
+    heading: "Company",
     links: [
-      { label: "Shield — $650/mo", href: "#pricing" },
-      { label: "Aegis — $1,350/mo", href: "#pricing" },
-      { label: "Sovereign — $6,500/yr", href: "#pricing" },
+      { label: "About", href: "/about" },
+      { label: "Pricing", href: "/#pricing" },
       { label: "Client portal", href: "/portal" },
+      { label: "Contact", href: "/#contact" },
     ],
   },
 ];

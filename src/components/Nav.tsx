@@ -7,11 +7,16 @@ import { useState } from "react";
 import Logo from "@/components/Logo";
 
 const links = [
-  { label: "Capabilities", href: "#capabilities" },
-  { label: "Process", href: "#process" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Stats", href: "#stats" },
-  { label: "Contact", href: "#contact" },
+  { label: "MDR", href: "/services/managed-detection-response" },
+  { label: "Pen Testing", href: "/services/penetration-testing" },
+  { label: "Cloud", href: "/services/cloud-security" },
+  { label: "EDR", href: "/services/endpoint-detection-response" },
+  { label: "Threat Intel", href: "/services/threat-intelligence" },
+  { label: "SOAR", href: "/services/soar-automation" },
+  { label: "Compliance", href: "/services/compliance-assessment" },
+  { label: "About", href: "/about" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Nav() {
