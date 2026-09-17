@@ -7,7 +7,6 @@ import {
   ShieldCheck,
   Lock,
 } from "lucide-react";
-import VirusBackground from "./VirusBackground";
 
 const termLines = [
   { text: "$ nmap -sV --script vuln 192.168.4.10", delay: 0.4 },
@@ -25,9 +24,6 @@ export default function Hero() {
     <section className="relative overflow-hidden">
       {/* backdrop grid */}
       <div className="cyber-grid absolute inset-0" aria-hidden />
-
-      {/* Canvas virus background */}
-      <VirusBackground />
       <div
         className="absolute -top-40 left-1/2 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-cyan/10 blur-[120px]"
         aria-hidden
