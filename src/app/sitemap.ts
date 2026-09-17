@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/services/threat-intelligence", priority: 0.8 },
     { path: "/services/soar-automation", priority: 0.8 },
     { path: "/services/compliance-assessment", priority: 0.85 },
+    { path: "/pricing", priority: 0.85 },
     { path: "/portal", priority: 0.6 },
   ];
 
