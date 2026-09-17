@@ -92,6 +92,31 @@ export default function Hero() {
               <Lock className="h-4 w-4 text-cyan" /> Zero-trust first
             </span>
           </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.65 }}
+            className="mt-10 border-t border-line pt-6"
+          >
+            <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-ink-mute">
+              In partnership with
+            </p>
+            <a
+              href="https://nccs.neduet.edu.pk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-3 inline-flex items-center gap-3"
+            >
+              <ShieldCheck className="h-5 w-5 text-cyan transition-transform group-hover:scale-110" />
+              <span className="font-mono text-sm font-medium tracking-wide text-ink-soft transition-colors group-hover:text-cyan">
+                National Centre for Cyber Security
+              </span>
+              <span className="rounded border border-line px-1.5 py-0.5 font-mono text-[9px] uppercase tracking-widest text-ink-mute transition-colors group-hover:border-cyan/40 group-hover:text-cyan">
+                NCCS
+              </span>
+            </a>
+          </motion.div>
         </div>
 
         {/* terminal widget */}
