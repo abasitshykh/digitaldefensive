@@ -79,13 +79,16 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="mt-10 flex items-center gap-6 font-mono text-xs text-ink-mute"
+            className="mt-10 flex flex-wrap items-center gap-4"
           >
-            <span className="flex items-center gap-2">
-              <ShieldCheck className="h-4 w-4 text-emerald" /> ISO 27001 aligned
+            <span className="inline-flex items-center gap-2 rounded-md border border-line px-3 py-1.5 font-mono text-[11px] uppercase tracking-widest text-ink-soft">
+              <ShieldCheck className="h-3.5 w-3.5 text-emerald" /> ISO 27001 aligned
             </span>
-            <span className="flex items-center gap-2">
-              <Lock className="h-4 w-4 text-cyan" /> Zero-trust first
+            <span className="inline-flex items-center gap-2 rounded-md border border-line px-3 py-1.5 font-mono text-[11px] uppercase tracking-widest text-ink-soft">
+              <ShieldCheck className="h-3.5 w-3.5 text-emerald" /> SOC 2 aligned
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-md border border-line px-3 py-1.5 font-mono text-[11px] uppercase tracking-widest text-ink-soft">
+              <Lock className="h-3.5 w-3.5 text-cyan" /> Zero-trust first
             </span>
           </motion.div>
 

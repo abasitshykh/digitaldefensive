@@ -30,7 +30,7 @@
   --accent-soft: rgba(8, 145, 178, 0.18);
   --accent-glow: rgba(8, 145, 178, 0.35);
   --accent-bg: rgba(8, 145, 178, 0.06);
-  --grid: rgba(8, 145, 178, 0.09);
+  --grid: rgba(8, 145, 178, 0.06);
   --card-bg: rgba(255, 255, 255, 0.8);
   color-scheme: light;
 }
@@ -51,7 +51,7 @@
   --accent-soft: rgba(0, 240, 255, 0.12);
   --accent-glow: rgba(0, 240, 255, 0.45);
   --accent-bg: rgba(0, 240, 255, 0.05);
-  --grid: rgba(0, 240, 255, 0.07);
+  --grid: rgba(0, 240, 255, 0.05);
   --card-bg: rgba(17, 24, 39, 0.55);
   color-scheme: dark;
 }
