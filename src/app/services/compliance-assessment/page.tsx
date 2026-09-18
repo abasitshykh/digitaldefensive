@@ -82,10 +82,7 @@ export default function CompliancePage() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-24">
       <div className="max-w-3xl">
-        <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan">
-          // compliance &amp; GRC
-        </p>
-        <h1 className="text-4xl font-semibold leading-tight tracking-tight text-ink md:text-5xl">
+        <h1 className="text-4xl font-bold leading-tight tracking-tight text-ink md:text-[3.25rem] md:leading-[1.1]">
           Security Audits
           <br />
           <span className="text-cyan">&amp; compliance readiness.</span>

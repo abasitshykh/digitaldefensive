@@ -49,7 +49,7 @@ export default function Contact() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink md:text-4xl">
             {t.contactTitle}
           </h2>
           <p className="mt-4 max-w-md text-base leading-7 text-ink-soft">

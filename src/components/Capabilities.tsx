@@ -61,7 +61,7 @@ export default function Capabilities() {
           transition={{ duration: 0.5 }}
           className="mb-14 max-w-2xl"
         >
-          <h2 className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink md:text-4xl">
             Full-spectrum defense, one partner
           </h2>
           <p className="mt-4 text-base leading-7 text-ink-soft">

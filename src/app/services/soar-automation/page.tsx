@@ -67,10 +67,7 @@ export default function SOARPage() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-24">
       <div className="max-w-3xl">
-        <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan">
-          // SOAR &amp; automation
-        </p>
-        <h1 className="text-4xl font-semibold leading-tight tracking-tight text-ink md:text-5xl">
+        <h1 className="text-4xl font-bold leading-tight tracking-tight text-ink md:text-[3.25rem] md:leading-[1.1]">
           SOAR Playbooks
           <br />
           <span className="text-cyan">that respond before you do.</span>

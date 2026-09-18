@@ -36,7 +36,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl font-semibold leading-tight tracking-tight text-slate-900 md:text-5xl"
+            className="text-4xl font-bold leading-tight tracking-tight text-ink md:text-[3.25rem] md:leading-[1.1]"
           >
             Defend the digital
             <br />

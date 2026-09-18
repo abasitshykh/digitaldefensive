@@ -55,7 +55,7 @@ export default function Process() {
           transition={{ duration: 0.5 }}
           className="mb-14 max-w-2xl"
         >
-          <h2 className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
+          <h2 className="text-3xl font-bold tracking-tight text-ink md:text-4xl">
             Four stages. Zero blind spots.
           </h2>
         </motion.div>
