@@ -45,3 +45,6 @@ fix_*.py
 check_*.py
 verify_*.py
 tsconfig.tsbuildinfo
+token.txt
+ngrok-live.log.err
+start-live.ps1

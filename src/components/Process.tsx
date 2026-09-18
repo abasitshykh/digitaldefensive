@@ -55,10 +55,7 @@ export default function Process() {
           transition={{ duration: 0.5 }}
           className="mb-14 max-w-2xl"
         >
-          <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan">
-            // pipeline
-          </p>
-          <h2 className="text-3xl font-semibold tracking-tight text-ink md:text-4xl">
+          <h2 className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
             Four stages. Zero blind spots.
           </h2>
         </motion.div>

@@ -21,10 +21,7 @@ export default function Pricing() {
           transition={{ duration: 0.5 }}
           className="mb-14 max-w-2xl"
         >
-          <p className="mb-3 font-mono text-xs uppercase tracking-[0.3em] text-cyan">
-            // engagement plans
-          </p>
-          <h2 className="text-3xl font-semibold tracking-tight text-ink md:text-4xl">
+          <h2 className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
             Security that scales with you
           </h2>
           <p className="mt-4 text-base leading-7 text-ink-soft">
